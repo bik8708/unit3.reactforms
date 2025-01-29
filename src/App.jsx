@@ -1,7 +1,13 @@
-function App() {
-  const [count, setCount] = useState(0);
+import SignUpForm from "./components/SignUpForm";
+import Authenticate from "./components/Authenticate";
 
-  return <>APP</>;
+function App() {
+  return (
+    <>
+      <SignUpForm />
+      <Authenticate />
+    </>
+  );
 }
 
 export default App;
